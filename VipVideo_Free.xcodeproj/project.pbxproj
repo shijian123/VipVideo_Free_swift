@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B41A5DD32089995B00DACED1 /* VipURLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41A5DD22089995B00DACED1 /* VipURLManager.swift */; };
+		B41A5DD52089C86C00DACED1 /* viplist_new.json in Resources */ = {isa = PBXBuildFile; fileRef = B41A5DD42089C86C00DACED1 /* viplist_new.json */; };
+		B41A5DD82089CA3F00DACED1 /* VipVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41A5DD62089CA3F00DACED1 /* VipVideoController.swift */; };
+		B41A5DD92089CA3F00DACED1 /* VipVideoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B41A5DD72089CA3F00DACED1 /* VipVideoController.xib */; };
+		B41A5DDB2089D0FA00DACED1 /* SelectVipStyleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41A5DDA2089D0FA00DACED1 /* SelectVipStyleController.swift */; };
+		B431AF362088972000F7CE9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431AF352088972000F7CE9E /* AppDelegate.swift */; };
+		B431AF382088972000F7CE9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431AF372088972000F7CE9E /* ViewController.swift */; };
+		B431AF3B2088972000F7CE9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B431AF392088972000F7CE9E /* Main.storyboard */; };
+		B431AF3D2088972100F7CE9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B431AF3C2088972100F7CE9E /* Assets.xcassets */; };
+		B431AF402088972100F7CE9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B431AF3E2088972100F7CE9E /* LaunchScreen.storyboard */; };
+		B431AF4B2088972100F7CE9E /* VipVideo_FreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431AF4A2088972100F7CE9E /* VipVideo_FreeTests.swift */; };
+		B431AF562088972100F7CE9E /* VipVideo_FreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431AF552088972100F7CE9E /* VipVideo_FreeUITests.swift */; };
+		EC7FB67F0D8592BE686133C8 /* libPods-VipVideo_Free.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D46BF854D0E7484BCB779158 /* libPods-VipVideo_Free.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B431AF472088972100F7CE9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B431AF2A2088972000F7CE9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B431AF312088972000F7CE9E;
+			remoteInfo = VipVideo_Free;
+		};
+		B431AF522088972100F7CE9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B431AF2A2088972000F7CE9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B431AF312088972000F7CE9E;
+			remoteInfo = VipVideo_Free;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CFD2D97F4B29B882B58CA03 /* Pods-VipVideo_Free.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VipVideo_Free.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VipVideo_Free/Pods-VipVideo_Free.debug.xcconfig"; sourceTree = "<group>"; };
+		860C106D16529C2C7C0DF202 /* Pods-VipVideo_Free.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VipVideo_Free.release.xcconfig"; path = "Pods/Target Support Files/Pods-VipVideo_Free/Pods-VipVideo_Free.release.xcconfig"; sourceTree = "<group>"; };
+		B41A5DD22089995B00DACED1 /* VipURLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipURLManager.swift; sourceTree = "<group>"; };
+		B41A5DD42089C86C00DACED1 /* viplist_new.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = viplist_new.json; sourceTree = "<group>"; };
+		B41A5DD62089CA3F00DACED1 /* VipVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipVideoController.swift; sourceTree = "<group>"; };
+		B41A5DD72089CA3F00DACED1 /* VipVideoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VipVideoController.xib; sourceTree = "<group>"; };
+		B41A5DDA2089D0FA00DACED1 /* SelectVipStyleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVipStyleController.swift; sourceTree = "<group>"; };
+		B431AF322088972000F7CE9E /* VipVideo_Free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VipVideo_Free.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B431AF352088972000F7CE9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B431AF372088972000F7CE9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B431AF3A2088972000F7CE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B431AF3C2088972100F7CE9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B431AF3F2088972100F7CE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B431AF412088972100F7CE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B431AF462088972100F7CE9E /* VipVideo_FreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VipVideo_FreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B431AF4A2088972100F7CE9E /* VipVideo_FreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipVideo_FreeTests.swift; sourceTree = "<group>"; };
+		B431AF4C2088972100F7CE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B431AF512088972100F7CE9E /* VipVideo_FreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VipVideo_FreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B431AF552088972100F7CE9E /* VipVideo_FreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipVideo_FreeUITests.swift; sourceTree = "<group>"; };
+		B431AF572088972100F7CE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46BF854D0E7484BCB779158 /* libPods-VipVideo_Free.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VipVideo_Free.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B431AF2F2088972000F7CE9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7FB67F0D8592BE686133C8 /* libPods-VipVideo_Free.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B431AF432088972100F7CE9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B431AF4E2088972100F7CE9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97E71BAC7844F51C91F1DB95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D46BF854D0E7484BCB779158 /* libPods-VipVideo_Free.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B431AF292088972000F7CE9E = {
+			isa = PBXGroup;
+			children = (
+				B431AF342088972000F7CE9E /* VipVideo_Free */,
+				B431AF492088972100F7CE9E /* VipVideo_FreeTests */,
+				B431AF542088972100F7CE9E /* VipVideo_FreeUITests */,
+				B431AF332088972000F7CE9E /* Products */,
+				B6CC10EDB3F4C6A5FE92685F /* Pods */,
+				97E71BAC7844F51C91F1DB95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B431AF332088972000F7CE9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B431AF322088972000F7CE9E /* VipVideo_Free.app */,
+				B431AF462088972100F7CE9E /* VipVideo_FreeTests.xctest */,
+				B431AF512088972100F7CE9E /* VipVideo_FreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B431AF342088972000F7CE9E /* VipVideo_Free */ = {
+			isa = PBXGroup;
+			children = (
+				B431AF352088972000F7CE9E /* AppDelegate.swift */,
+				B431AF372088972000F7CE9E /* ViewController.swift */,
+				B41A5DD62089CA3F00DACED1 /* VipVideoController.swift */,
+				B41A5DD72089CA3F00DACED1 /* VipVideoController.xib */,
+				B41A5DDA2089D0FA00DACED1 /* SelectVipStyleController.swift */,
+				B41A5DD22089995B00DACED1 /* VipURLManager.swift */,
+				B431AF392088972000F7CE9E /* Main.storyboard */,
+				B431AF3C2088972100F7CE9E /* Assets.xcassets */,
+				B431AF3E2088972100F7CE9E /* LaunchScreen.storyboard */,
+				B431AF412088972100F7CE9E /* Info.plist */,
+				B41A5DD42089C86C00DACED1 /* viplist_new.json */,
+			);
+			path = VipVideo_Free;
+			sourceTree = "<group>";
+		};
+		B431AF492088972100F7CE9E /* VipVideo_FreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B431AF4A2088972100F7CE9E /* VipVideo_FreeTests.swift */,
+				B431AF4C2088972100F7CE9E /* Info.plist */,
+			);
+			path = VipVideo_FreeTests;
+			sourceTree = "<group>";
+		};
+		B431AF542088972100F7CE9E /* VipVideo_FreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B431AF552088972100F7CE9E /* VipVideo_FreeUITests.swift */,
+				B431AF572088972100F7CE9E /* Info.plist */,
+			);
+			path = VipVideo_FreeUITests;
+			sourceTree = "<group>";
+		};
+		B6CC10EDB3F4C6A5FE92685F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD2D97F4B29B882B58CA03 /* Pods-VipVideo_Free.debug.xcconfig */,
+				860C106D16529C2C7C0DF202 /* Pods-VipVideo_Free.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B431AF312088972000F7CE9E /* VipVideo_Free */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B431AF5A2088972100F7CE9E /* Build configuration list for PBXNativeTarget "VipVideo_Free" */;
+			buildPhases = (
+				F8AF521A18432E43C0364740 /* [CP] Check Pods Manifest.lock */,
+				B431AF2E2088972000F7CE9E /* Sources */,
+				B431AF2F2088972000F7CE9E /* Frameworks */,
+				B431AF302088972000F7CE9E /* Resources */,
+				14A5EF0EC55A06DB749B00BF /* [CP] Embed Pods Frameworks */,
+				31E56F9844642BB072E519F2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VipVideo_Free;
+			productName = VipVideo_Free;
+			productReference = B431AF322088972000F7CE9E /* VipVideo_Free.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B431AF452088972100F7CE9E /* VipVideo_FreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B431AF5D2088972100F7CE9E /* Build configuration list for PBXNativeTarget "VipVideo_FreeTests" */;
+			buildPhases = (
+				B431AF422088972100F7CE9E /* Sources */,
+				B431AF432088972100F7CE9E /* Frameworks */,
+				B431AF442088972100F7CE9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B431AF482088972100F7CE9E /* PBXTargetDependency */,
+			);
+			name = VipVideo_FreeTests;
+			productName = VipVideo_FreeTests;
+			productReference = B431AF462088972100F7CE9E /* VipVideo_FreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B431AF502088972100F7CE9E /* VipVideo_FreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B431AF602088972100F7CE9E /* Build configuration list for PBXNativeTarget "VipVideo_FreeUITests" */;
+			buildPhases = (
+				B431AF4D2088972100F7CE9E /* Sources */,
+				B431AF4E2088972100F7CE9E /* Frameworks */,
+				B431AF4F2088972100F7CE9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B431AF532088972100F7CE9E /* PBXTargetDependency */,
+			);
+			name = VipVideo_FreeUITests;
+			productName = VipVideo_FreeUITests;
+			productReference = B431AF512088972100F7CE9E /* VipVideo_FreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B431AF2A2088972000F7CE9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = CY;
+				TargetAttributes = {
+					B431AF312088972000F7CE9E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					B431AF452088972100F7CE9E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B431AF312088972000F7CE9E;
+					};
+					B431AF502088972100F7CE9E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B431AF312088972000F7CE9E;
+					};
+				};
+			};
+			buildConfigurationList = B431AF2D2088972000F7CE9E /* Build configuration list for PBXProject "VipVideo_Free" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B431AF292088972000F7CE9E;
+			productRefGroup = B431AF332088972000F7CE9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B431AF312088972000F7CE9E /* VipVideo_Free */,
+				B431AF452088972100F7CE9E /* VipVideo_FreeTests */,
+				B431AF502088972100F7CE9E /* VipVideo_FreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B431AF302088972000F7CE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41A5DD52089C86C00DACED1 /* viplist_new.json in Resources */,
+				B431AF402088972100F7CE9E /* LaunchScreen.storyboard in Resources */,
+				B431AF3D2088972100F7CE9E /* Assets.xcassets in Resources */,
+				B41A5DD92089CA3F00DACED1 /* VipVideoController.xib in Resources */,
+				B431AF3B2088972000F7CE9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B431AF442088972100F7CE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B431AF4F2088972100F7CE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14A5EF0EC55A06DB749B00BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VipVideo_Free/Pods-VipVideo_Free-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31E56F9844642BB072E519F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VipVideo_Free/Pods-VipVideo_Free-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8AF521A18432E43C0364740 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VipVideo_Free-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B431AF2E2088972000F7CE9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B431AF382088972000F7CE9E /* ViewController.swift in Sources */,
+				B41A5DD82089CA3F00DACED1 /* VipVideoController.swift in Sources */,
+				B41A5DD32089995B00DACED1 /* VipURLManager.swift in Sources */,
+				B431AF362088972000F7CE9E /* AppDelegate.swift in Sources */,
+				B41A5DDB2089D0FA00DACED1 /* SelectVipStyleController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B431AF422088972100F7CE9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B431AF4B2088972100F7CE9E /* VipVideo_FreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B431AF4D2088972100F7CE9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B431AF562088972100F7CE9E /* VipVideo_FreeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B431AF482088972100F7CE9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B431AF312088972000F7CE9E /* VipVideo_Free */;
+			targetProxy = B431AF472088972100F7CE9E /* PBXContainerItemProxy */;
+		};
+		B431AF532088972100F7CE9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B431AF312088972000F7CE9E /* VipVideo_Free */;
+			targetProxy = B431AF522088972100F7CE9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B431AF392088972000F7CE9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B431AF3A2088972000F7CE9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B431AF3E2088972100F7CE9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B431AF3F2088972100F7CE9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B431AF582088972100F7CE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B431AF592088972100F7CE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B431AF5B2088972100F7CE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CFD2D97F4B29B882B58CA03 /* Pods-VipVideo_Free.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 986H8EK8V9;
+				INFOPLIST_FILE = VipVideo_Free/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Booktest.VipVideo-Free";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B431AF5C2088972100F7CE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 860C106D16529C2C7C0DF202 /* Pods-VipVideo_Free.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 986H8EK8V9;
+				INFOPLIST_FILE = VipVideo_Free/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Booktest.VipVideo-Free";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B431AF5E2088972100F7CE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q4LJ2ECCS;
+				INFOPLIST_FILE = VipVideo_FreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VipVideo-FreeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VipVideo_Free.app/VipVideo_Free";
+			};
+			name = Debug;
+		};
+		B431AF5F2088972100F7CE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q4LJ2ECCS;
+				INFOPLIST_FILE = VipVideo_FreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VipVideo-FreeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VipVideo_Free.app/VipVideo_Free";
+			};
+			name = Release;
+		};
+		B431AF612088972100F7CE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q4LJ2ECCS;
+				INFOPLIST_FILE = VipVideo_FreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VipVideo-FreeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VipVideo_Free;
+			};
+			name = Debug;
+		};
+		B431AF622088972100F7CE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Q4LJ2ECCS;
+				INFOPLIST_FILE = VipVideo_FreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.VipVideo-FreeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VipVideo_Free;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B431AF2D2088972000F7CE9E /* Build configuration list for PBXProject "VipVideo_Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B431AF582088972100F7CE9E /* Debug */,
+				B431AF592088972100F7CE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B431AF5A2088972100F7CE9E /* Build configuration list for PBXNativeTarget "VipVideo_Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B431AF5B2088972100F7CE9E /* Debug */,
+				B431AF5C2088972100F7CE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B431AF5D2088972100F7CE9E /* Build configuration list for PBXNativeTarget "VipVideo_FreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B431AF5E2088972100F7CE9E /* Debug */,
+				B431AF5F2088972100F7CE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B431AF602088972100F7CE9E /* Build configuration list for PBXNativeTarget "VipVideo_FreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B431AF612088972100F7CE9E /* Debug */,
+				B431AF622088972100F7CE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B431AF2A2088972000F7CE9E /* Project object */;
+}
