@@ -84,7 +84,9 @@ class VipVideoController: UIViewController, WKUIDelegate, WKNavigationDelegate {
             print("request.URL.absoluteString = ",requestUrl)
 
         }
-        decisionHandler(.allow)
+//        decisionHandler(.allow)
+        //封印腾讯的Universal Links
+        decisionHandler(WKNavigationActionPolicy(rawValue: 3)!)
     }
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
