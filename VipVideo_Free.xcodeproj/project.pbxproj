@@ -10,7 +10,6 @@
 		B41A5DD32089995B00DACED1 /* VipURLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41A5DD22089995B00DACED1 /* VipURLManager.swift */; };
 		B41A5DD52089C86C00DACED1 /* viplist_new.json in Resources */ = {isa = PBXBuildFile; fileRef = B41A5DD42089C86C00DACED1 /* viplist_new.json */; };
 		B41A5DD82089CA3F00DACED1 /* VipVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41A5DD62089CA3F00DACED1 /* VipVideoController.swift */; };
-		B41A5DD92089CA3F00DACED1 /* VipVideoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B41A5DD72089CA3F00DACED1 /* VipVideoController.xib */; };
 		B41A5DDB2089D0FA00DACED1 /* SelectVipStyleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41A5DDA2089D0FA00DACED1 /* SelectVipStyleController.swift */; };
 		B431AF362088972000F7CE9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431AF352088972000F7CE9E /* AppDelegate.swift */; };
 		B431AF382088972000F7CE9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431AF372088972000F7CE9E /* ViewController.swift */; };
@@ -19,6 +18,7 @@
 		B431AF402088972100F7CE9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B431AF3E2088972100F7CE9E /* LaunchScreen.storyboard */; };
 		B431AF4B2088972100F7CE9E /* VipVideo_FreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431AF4A2088972100F7CE9E /* VipVideo_FreeTests.swift */; };
 		B431AF562088972100F7CE9E /* VipVideo_FreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B431AF552088972100F7CE9E /* VipVideo_FreeUITests.swift */; };
+		B4C7CDB62376630A00FF6A2D /* CYConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C7CDB52376630A00FF6A2D /* CYConst.swift */; };
 		EC7FB67F0D8592BE686133C8 /* libPods-VipVideo_Free.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D46BF854D0E7484BCB779158 /* libPods-VipVideo_Free.a */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +45,6 @@
 		B41A5DD22089995B00DACED1 /* VipURLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipURLManager.swift; sourceTree = "<group>"; };
 		B41A5DD42089C86C00DACED1 /* viplist_new.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = viplist_new.json; sourceTree = "<group>"; };
 		B41A5DD62089CA3F00DACED1 /* VipVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipVideoController.swift; sourceTree = "<group>"; };
-		B41A5DD72089CA3F00DACED1 /* VipVideoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VipVideoController.xib; sourceTree = "<group>"; };
 		B41A5DDA2089D0FA00DACED1 /* SelectVipStyleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVipStyleController.swift; sourceTree = "<group>"; };
 		B431AF322088972000F7CE9E /* VipVideo_Free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VipVideo_Free.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B431AF352088972000F7CE9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +59,8 @@
 		B431AF512088972100F7CE9E /* VipVideo_FreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VipVideo_FreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B431AF552088972100F7CE9E /* VipVideo_FreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipVideo_FreeUITests.swift; sourceTree = "<group>"; };
 		B431AF572088972100F7CE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4C7CDB42376611000FF6A2D /* VipVideo_Free.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VipVideo_Free.entitlements; sourceTree = "<group>"; };
+		B4C7CDB52376630A00FF6A2D /* CYConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYConst.swift; sourceTree = "<group>"; };
 		D46BF854D0E7484BCB779158 /* libPods-VipVideo_Free.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VipVideo_Free.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -122,12 +123,13 @@
 		B431AF342088972000F7CE9E /* VipVideo_Free */ = {
 			isa = PBXGroup;
 			children = (
+				B4C7CDB42376611000FF6A2D /* VipVideo_Free.entitlements */,
 				B431AF352088972000F7CE9E /* AppDelegate.swift */,
 				B431AF372088972000F7CE9E /* ViewController.swift */,
 				B41A5DD62089CA3F00DACED1 /* VipVideoController.swift */,
-				B41A5DD72089CA3F00DACED1 /* VipVideoController.xib */,
 				B41A5DDA2089D0FA00DACED1 /* SelectVipStyleController.swift */,
 				B41A5DD22089995B00DACED1 /* VipURLManager.swift */,
+				B4C7CDB52376630A00FF6A2D /* CYConst.swift */,
 				B431AF392088972000F7CE9E /* Main.storyboard */,
 				B431AF3C2088972100F7CE9E /* Assets.xcassets */,
 				B431AF3E2088972100F7CE9E /* LaunchScreen.storyboard */,
@@ -274,7 +276,6 @@
 				B41A5DD52089C86C00DACED1 /* viplist_new.json in Resources */,
 				B431AF402088972100F7CE9E /* LaunchScreen.storyboard in Resources */,
 				B431AF3D2088972100F7CE9E /* Assets.xcassets in Resources */,
-				B41A5DD92089CA3F00DACED1 /* VipVideoController.xib in Resources */,
 				B431AF3B2088972000F7CE9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +357,7 @@
 				B41A5DD32089995B00DACED1 /* VipURLManager.swift in Sources */,
 				B431AF362088972000F7CE9E /* AppDelegate.swift in Sources */,
 				B41A5DDB2089D0FA00DACED1 /* SelectVipStyleController.swift in Sources */,
+				B4C7CDB62376630A00FF6A2D /* CYConst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,9 +531,11 @@
 			baseConfigurationReference = 4CFD2D97F4B29B882B58CA03 /* Pods-VipVideo_Free.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VipVideo_Free/VipVideo_Free.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 986H8EK8V9;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 2Q4LJ2ECCS;
 				INFOPLIST_FILE = VipVideo_Free/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -540,6 +544,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Booktest.VipVideo-Free";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -550,9 +555,11 @@
 			baseConfigurationReference = 860C106D16529C2C7C0DF202 /* Pods-VipVideo_Free.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VipVideo_Free/VipVideo_Free.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 986H8EK8V9;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 2Q4LJ2ECCS;
 				INFOPLIST_FILE = VipVideo_Free/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -561,6 +568,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Booktest.VipVideo-Free";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
